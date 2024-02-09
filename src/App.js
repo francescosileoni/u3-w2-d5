@@ -12,6 +12,7 @@ function App() {
         {/* <CustomNavbar />  non mi funziona me ne importa 2 */}
         <Routes>
           <Route path="/" element={<HomePage />} />
+
           <Route path="/details/:city" element={<DetailsPage />} />
         </Routes>
       </div>
